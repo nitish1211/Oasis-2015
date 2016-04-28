@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+
+
+        <v2015.oasis.pilani.bits.com.home.CustomFont2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A globetrotter, you say?\nImagine a world where the shapes shift as you blink your eyes.\nSkydiving in the Alps?\nA Masquerade Ball in the Venice Carnival?\nSipping wine by the Seine?\nOr the Northern Lights?Dreamy-eyed, are we?\n\nThis October,\nSamba in the Rio Carnival,\nRomance the Czech Castle City,\nParty in the Oktoberfest\nHike the Inca Trail\nLose yourself in the Spring Festival.\n\nThis October, live the dream.\nOasis’15, Around the World in 96 Hours."
+            android:textSize="19dp"
+            android:id="@+id/text7"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            />
+        </RelativeLayout>
+
+        </ScrollView>
+</RelativeLayout>
